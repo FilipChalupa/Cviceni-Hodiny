@@ -11,3 +11,7 @@ html {
 body {
 	font-family: sans-serif;
 }
+
+.btn {
+	border-radius: 0;
+}
