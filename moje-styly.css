@@ -26,6 +26,12 @@
 	0% {
 		transform: rotate(0deg);
 	}
+	/*1.666666% {
+		transform: rotate(6deg);
+	}
+	3.4% {
+		transform: rotate(12deg);
+	}*/
 	100% {
 		transform: rotate(360deg);
 		/*transform: rotate(1turn);*/
@@ -40,4 +46,5 @@
 }
 .analogove__vterinova {
 	animation: toceni 60s infinite linear;
+	animation-timing-function: steps(60, end);
 }
